@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online shop Vydelka</title>
+    <title>Create your wash</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header class="container" id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Vydelka</a>
+            <a class="navbar-brand" href="#">CreateYourWash</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +24,7 @@
                         <a class="nav-link smooth" href="#home">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth" href="#products">Products</a>
+                        <a class="nav-link smooth" href="goods.html">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link smooth" href="#contacts">Contacts</a>
@@ -45,8 +46,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="intro mx-auto">
-                    <h1 class="display-4">Welcome to Vydelka</h1>
-                    <p class="lead">Best online shop in the World!</p>
+                    <h1 class="display-4">Welcome to CreateYourWash</h1>
                     <hr class="my-4">
                     <p>Buy with discount today</p>
                     <p class="lead">
@@ -55,12 +55,11 @@
                   </div>    
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img/products/tesla-x.jpg" alt="Tesla X">
+                  <img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="img/products/tesla-roadster.jpg" alt="Blue drone">
+                  <img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
                 </div>
-                <!-- Todo: Dynamically add items here --> 
               </div>
               <a class="carousel-control-prev" href="#carouselOffers" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,18 +73,129 @@
         </div>
 
         </div>
-        <section>
-            <h2 id="products">Products</h2>
-            <div class="row products-container">
-               <!--Products are dynamically generated here-->
-            </div>
-        </section>
+        
     </main>
+    <section class="services">
+        <div class="container">
+            <div class="services_top">
+                <div class="services_title-box">
+                    <div class="services_title">
+                    Наші послуги
+                    </div>
+                    <div class="services_text">
+                    Ми надаємо високоякісні товари для мийок самообслуговування.
+                    Обслуговування мийок.
+                    </div>
+                </div>
+                <div class="services_btn">
+                    <a href="goods.html">Показати всі послуги</a>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about_inner">
+                <div class="about_title">
+                    Про компанію
+                </div>
+                <div class="about_text">
+                Компанія "CreateCarWash" пропонує якісне обладнання
+                для мийок самообслуговування.
+                Все обланання винятково Європейського класу.
+                Також пропонуємо обслуговування мийок
+                </div>
+                <div class="about_btn">
+                    <a href="#">Більше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="form_inner">
+                <div class="form_content">
+                    <div class="form_title-box">
+                        <div class="form_title">
+                            Получити Консультацію
+                        </div>
+                        <div class="form_text">
+                            Відповімо на всі цікаві для вас питання.
+                            Допоможемо розібратись в концепціях.
+                            Допоможем зібрати оптимальний концепт для мийки.
+                        </div>
+                    </div>
+                    <div class="form_box">
+                        <form>
+                            <div class="form_box-inner">
+                                <div class="form_box-left">
+                                    <label>
+                                        E-mail
+                                        <input type="text">
+                                    </label>
+                                    <label>
+                                        Контактний телефон
+                                        <input type="text">
+                                    </label>
+                                    <label>
+                                        ФІО
+                                        <input type="text">
+                                    </label>
+                                    <label>
+                                        Тема запитання
+                                        <select>
+                                            <option>--------</option>
+                                            <option>--------</option>
+                                            <option>--------</option>
+                                            <option>--------</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="form_box-right">
+                                    <label>
+                                        Лист
+
+                                        <textarea></textarea>
+                                    </label>
+                                    <button class="default-btn" type="submit">Send</button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
-    <footer class="container">
-      <h2 id="contacts">Contact us</h2>
-      <p>Copyright by <a href="https://programmingmentor.com">Programming Mentor</a></p>
-    </footer>
+    <footer class="footer">
+            <div class="footer_content">
+              <div class="container">
+                <div class="footer_inner">
+                  <div class="footer_info">
+                    <ul class="footer_list">
+                      <li><a class="footer_phone" href="tel:380963092145">+38 (096) 309 21 45</a></li>
+                      <li><a href="#">CreateCarWash@gmail.com</a></li>
+                      <li><a class="footer_adress" href="#">Львів, вул.Бандери 43</a></li>
+                      <div class="clock"></div>
+                    </ul>
+                  </div>
+                  <div class="footer_map">
+                    <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6961945491184!2d24.006049099370745!3d49.83508423935013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add78b997cbc9%3A0x1a1e087844ecb9ce!2z0LLRg9C70LjRhtGPINCh0YLQtdC_0LDQvdCwINCR0LDQvdC00LXRgNC4LCAzNCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1575120570773!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer_copy">
+              <div class="container">
+                <div class="copy_text">
+                  © 2017 Template by Nazarii Lozynskyi. Все права защищены.
+                </div>
+              </div>
+            </div>
+          </footer>
     
 
     <!-- Modal Product Info -->
